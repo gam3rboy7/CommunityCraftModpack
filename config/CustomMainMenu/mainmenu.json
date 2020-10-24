@@ -1,0 +1,128 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "communitycraft:title.png",
+            "posX" : -103,
+            "posY" : 50,
+            "width" : 200,
+            "height" : 75,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "communitycraft:transparent.png",
+            "posX" : -49,
+            "posY" : 67,
+            "width" : 128,
+            "height" : 25,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        
+        "multiplayer":
+        {
+            "text" : "Play",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "158.69.54.7:25571"
+            }
+        },
+        
+       
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -76,
+            "posY" : 100,
+            "width" : 122,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Quit",
+            "posX" : 50,
+            "posY" : 100,
+            "width" : 50,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -100,
+            "posY" : 100,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+        
+
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "      Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nPlay Singleplayer. TESTING POURPOSES ONLY!",
+            "posX" : -221,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+       
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : false,
+            "gradient" : false
+        }
+    }
+}
